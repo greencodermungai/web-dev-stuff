@@ -14,7 +14,7 @@ is what you name the css function tage so they can comunicate
 
 /*you can also use id indentifyer, it works the same as a class identifyer*/
 #title {
-    background-color:red
+    color:red
     /*<div id="title">My Awesome 90's Page</div>*/
 }
 /*if you have two class identifires that do the
