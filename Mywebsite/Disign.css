@@ -1,0 +1,33 @@
+/*this changes the color of all the div tags in the html file*/
+p {
+    color:blueviolet;
+}
+/*  this changes only a certan tag, to identify that certan tag you would use a class identifyer
+its looks like  ////class="alert-text////  and when you put this inside of a tag what ever you put insde of the perenthasis 
+is what you name the css function tage so they can comunicate
+*/
+.alert-text {
+    color:brown;
+    /*<div class="alert-text"> hello my name is john</div>
+    this will turn this specific tag brown*/
+}
+
+/*you can also use id indentifyer, it works the same as a class identifyer*/
+#title {
+    background-color:red
+    /*<div id="title">My Awesome 90's Page</div>*/
+}
+/*if you have two class identifires that do the
+ same thing to two diffrent tags you can conbine them to
+ use less lines of code */
+ .alert-text,
+ .alert-text2 {
+    color:blanchedalmond;
+    background-color: blue;
+ }
+/*if you have more than one html tag that have the same class identify
+and are looking to get unltra specific, pair an id indentifyer with it
+this is for when you need to make changes within changes*/
+.alert-text#preview {
+    background-color:red;
+}
